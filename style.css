@@ -99,9 +99,6 @@ body {
     border: 3px solid rgb(243, 4, 4);
     } /*Используется в Index.html и contacts.html*/
 
-.footer_menu {
-    border: 3px solid rgb(230, 186, 120);
-}
 
 .footer_content {
     border: 3px solid rgb(214, 21, 166);
