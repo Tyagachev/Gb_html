@@ -1,0 +1,167 @@
+body {
+    font-family: sans-serif;
+   }
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    color:#1F3F68;
+}
+
+.heading_h1 {
+    font-size: 64px;
+    color:#1F3F68; 
+ }
+
+.heading_h2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading_h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.heading_h4 {
+    font-size: 20px;
+    line-height: 30px;
+    color:#1F3F68 ;
+}
+
+.heading_h3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.data {
+    
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.send {
+    background:#5A98D0;
+    box-shadow: 5px 20px 50px rgba(16,112,177,0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+/*Div для Index.html*/
+
+.header {
+    border: 4px solid rgb(236, 9, 9);
+
+} /*Используется в Index.html и contacts.html*/
+
+.header_menu {
+    border: 3px solid rgb(95, 10, 145);
+    
+} /*Используется в Index.html и contacts.html*/
+
+.header_nav { 
+    border: 3px solid rgb(6, 105, 23);
+
+} /*Используется в Index.html и contacts.html*/
+
+.header_content {
+    border: 3px solid rgb(26, 172, 240);
+    
+} /*Используется в Index.html и contacts.html*/
+
+.index {
+    border: 4px solid rgb(95, 10, 145);
+
+}
+
+.index_content {
+    border: 3px solid rgb(22, 114, 10);
+}
+
+.index_text {
+    border: 3px solid rgb(214, 21, 166);
+}
+
+.index_center {  
+    border: 3px solid rgb(236, 9, 9);
+}
+
+.footer {
+    border: 3px solid rgb(243, 4, 4);
+    } /*Используется в Index.html и contacts.html*/
+
+.footer_menu {
+    border: 3px solid rgb(230, 186, 120);
+}
+
+.footer_content {
+    border: 3px solid rgb(214, 21, 166);
+} /*Используется в Index.html и contacts.html*/
+
+.footer_contacts {
+    border: 3px solid rgb(21, 214, 85);
+} /*Используется в Index.html и contacts.html*/
+
+.footer_copyright { 
+    border: 3px solid rgb(224, 171, 231);
+} /*Используется в Index.html и contacts.html*/
+
+
+
+/*Div для Contacts.html*/
+
+.image {
+    border: 3px solid rgb(66, 180, 214);
+    
+}
+.image_inner {
+    border: 3px solid rgb(211, 76, 184);
+    }
+
+.contacts {
+    border: 3px solid rgb(248, 137, 9);
+}
+
+.address {    
+    border: 3px solid rgb(248, 9, 21);
+}
+
+.phone { 
+     
+    border: 3px solid rgb(248, 244, 9);
+}
+.phone_number {
+    border: 3px solid rgb(232, 167, 70);
+
+}
+
+.service {    
+    border: 3px solid rgb(9, 248, 61);
+}
+
+.service_link {
+    border: 3px solid rgb(47, 133, 212);
+}
+
+.message{
+    border: 3px solid rgb(248, 9, 21);
+}
+
+.message_content {
+    border: 3px solid rgb(113, 9, 248);
+}
+
+.map {
+    border: 3px solid rgb(224, 248, 9);
+    display: flex;
+    justify-content: center;
+}
