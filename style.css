@@ -146,7 +146,7 @@ body {
 
 .index_service {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid black;
 }
 
