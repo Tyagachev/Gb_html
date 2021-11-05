@@ -125,7 +125,7 @@ body {
 .index_container {
     /*border: 3px solid rgb(15, 136, 21);*/
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    
 
 }
@@ -184,9 +184,6 @@ body {
     border: 3px solid rgb(66, 180, 214);
     
 }
-.image_inner {
-    /*border: 3px solid rgb(211, 76, 184);*/
-    }
 
 .contacts {
     border: 3px solid rgb(241, 16, 27);
