@@ -231,6 +231,10 @@ body {
     display: inline-block;
  }
 
+ .project {
+     padding: 64px 0 0 0;
+ }
+
 .project_item {
     
     position: relative;
