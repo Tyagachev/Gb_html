@@ -11,12 +11,13 @@ body {
 .header {
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    padding-top: 42px;
+    padding: 42px 0 0 0;
 }
 
 .header_contacts {
     height: 471px;
     z-index: 0;
+    padding: 42px 0 0 0;
 }
 
 
@@ -52,7 +53,7 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid rgb(96, 253, 5);
+    /*border: 1px solid rgb(96, 253, 5);*/
     }
 
 .paragraf {
@@ -81,6 +82,7 @@ body {
 }
 
 .paragraf_h1 {
+    padding: 0 0 71px 0;
     width: 425px;
     
 }
@@ -163,12 +165,9 @@ body {
    
 }
 
-
 .what-we-do {
     padding-top: 64px;
 }
-
-
 
 .index_box {
     padding-top: 64px;
@@ -363,8 +362,7 @@ body {
     letter-spacing: 0.05em;
     color: #1F3F68;
     padding: 0 0 16px 19px;
-    
-    
+      
 }
 
 .service_link_ul {
@@ -378,8 +376,7 @@ body {
     height: 800px;
     background: #FFFFFF;
     box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    
+    border-radius: 10px; 
     
 }
 
@@ -398,7 +395,6 @@ body {
     padding-bottom: 8px;
 }
 
-
 .map {
     
     display: flex;
@@ -410,7 +406,6 @@ hr {
     border: 1px solid #fff
 }
 
-
 .footer {
     margin-top: 112px;
     background-image: url(../Gb_html/img/Rectangle.png);
@@ -419,14 +414,13 @@ hr {
     } 
 
 .footer_content_top{
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
 }
 
 .footer_botton {
     text-decoration: none;
-    top: 68px;
-    right: 114px;
-    position: absolute;
     background: #5A98D0;
     padding:15px 80px ;
     font-size: 16px;
@@ -450,8 +444,8 @@ hr {
     font-size: 36px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
-    margin-bottom: 32px;
+    color: #ffffff;
+    margin: 0  0 32px;
 }
 
 .footer_paragraf {
@@ -459,9 +453,18 @@ hr {
     line-height: 26px;
     letter-spacing: 0.05em;   
     color: #FFFFFF;
-    opacity: 0.6;;
+    opacity: 0.6;
+    padding: 0 0 96px 0;
 }
 
+.footer_paragraf_copy {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;   
+    color: #FFFFFF;
+    opacity: 0.6;
+    
+}
 
 .footer_contacts {
   padding-top: 64px;
@@ -471,6 +474,7 @@ hr {
     display: flex;
     justify-content: space-between;
     color:#fff;
+    list-style-position: inside;
     
 }
 
@@ -481,10 +485,11 @@ hr {
     letter-spacing: 0.05em;
     color: #FFFFFF;
     text-decoration: none;
+    flex-grow: 1;
     
 }
 
 .footer_copyright { 
-   padding-top: 64px;
-   margin-bottom: 64px;
+
+      margin:64px 0 64px 0;
 } 
