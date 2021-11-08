@@ -7,6 +7,47 @@ body {
     font-family: sans-serif;
    }
 
+.header {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    padding-top: 42px;
+}
+
+.header_contacts {
+    height: 471px;
+    z-index: 0;
+}
+
+
+.header_contacts_inner {
+    background-image:url(../Gb_html/img/contact_back.png);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.header_contact_us {
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+ 
+.header_nav { 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 54px;
+
+} 
+
+.header_content {
+    padding-top: 115px;
+    background-image: url(../Gb_html/img/illustration.png);
+    background-repeat: no-repeat;
+    background-position:right center;
+} 
+
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -21,6 +62,16 @@ body {
     letter-spacing: 0.05em;
 }
 
+.paragraf_address {
+       
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+
 .paragraf_project {
     width: 75%;
     margin: 32px auto 64px;
@@ -30,10 +81,8 @@ body {
 
 .paragraf_h1 {
     width: 425px;
-    /*border: 1px solid black;*/
+    
 }
-
-
 
 .heading_h1 {
     width: 510px;
@@ -43,7 +92,7 @@ body {
     line-height: 74px;
     letter-spacing: 0.04em;
     margin-bottom: 32px;
-    /*border: 1px solid black; */
+    
  }
 
 
@@ -51,8 +100,25 @@ body {
 .heading_h2 {
     font-weight: 500;
     font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     
 }
+
+
+.heading_paragraf_h2 {
+    width: 75%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing:0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 32px auto 64px;
+    padding-bottom: 40px;
+}
+
 
 .heading_h3 {
     font-weight: 300;
@@ -64,19 +130,44 @@ body {
     
 }
 
-.heading_h4 {
+.heading_h4_message {
+    margin: 56px auto 48px ;
+    font-size: 20px;
+    line-height: 30px;    
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    padding-left: 56px;
+}
+
+.heading_h4_contacts {
+    font-weight: 500;
     font-size: 20px;
     line-height: 30px;
-    color:#1F3F68 ;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    padding: 40px 0 0 0;
+
 }
+
+.heading_h4_address { 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    text-transform: uppercase;
+    margin-bottom: 24px;   
+   
+}
+
 
 .what-we-do {
     padding-top: 64px;
 }
 
-.index {
-    
-}
+
 
 .index_box {
     padding-top: 64px;
@@ -88,7 +179,8 @@ body {
 .index_service {
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
+    z-index: 1;
+    margin-bottom: 96px;
 }
 
 .index_header {
@@ -113,6 +205,7 @@ body {
     flex-direction: column;    
  }
 
+
 .index_content_header {
     font-size: 20px;
     line-height: 30px;
@@ -122,9 +215,21 @@ body {
     text-align: center;
 }
 
-.project {
 
-}
+ .top_botton {
+
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; 
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    display: inline-block;
+ }
 
 .project_item {
     
@@ -180,21 +285,29 @@ body {
     color: #5A98D0;
 }
 
-.heading_h3 {
-    font-size: 36px;
-    text-align: center;
-}
-
-
 .data {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
     opacity: 0.4;
+    width: 428px;
+    height: 72px;
+}
+
+.data_message {
+    width: 428px;
+    height: 144px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    
 }
 
 .send {
-    background:#5A98D0;
+    width: 429px;
+    height: 72px;
+    background:#5A98D0;;
     box-shadow: 5px 20px 50px rgba(16,112,177,0.2);
     border-radius: 10px;
     font-weight: 500;
@@ -203,59 +316,126 @@ body {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    margin: 15px;
+    display: inline-block;
+    margin-top: 72px ;
 }
 
-/*Div для Index.html*/
-
-.header {
-    height: 768px;
-    border: 4px solid rgb(236, 9, 9);
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    padding-top: 42px;
-} /*Используется в Index.html и contacts.html*/
- 
-.header_nav { 
-    display: flex;
-    justify-content: space-between;
-    /*border: 3px solid rgb(6, 105, 23);*/
-
-} /*Используется в Index.html и contacts.html*/
-
-.header_content {
-    padding-top: 115px;
-    border: 3px solid rgb(26, 172, 240);
-    background-image: url(../Gb_html/img/illustration.png);
-    background-repeat: no-repeat;
-    background-position:right center;
-} /*Используется в Index.html и contacts.html*/
+.contacts {
+    margin: 65px 0 0 0;
+    width: 300px;
+    /*border: 3px solid rgb(241, 16, 27);*/
+}
+.image {
+    margin-bottom: 56px;
+}
 
 
-.header_contact_inner {
+.phone {
+    margin-top: 40px;
+}
+
+
+.phone_number_ul {
+    padding: 24px 0 0 0;
+    list-style-type: none;
+}
+
+.phone_link_img {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding: 0 0 16px 19px;
+
+}
+
+
+.service_link_img {
+    text-decoration: none; 
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    padding: 0 0 16px 19px;
+    
+    
+}
+
+.service_link_ul {
+    padding: 24px 0 0 0;
+    list-style-type: none;
+
+}
+
+.message{
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    
+    
+}
+
+.message_block {
+   
+    padding-left: 56px;
+    padding-bottom: 32px;
+}
+
+.message_name {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+
+
+.map {
+    
     display: flex;
     justify-content: center;
 }
 
-.header_contact_us {
-    text-align: center;
+hr {
+    opacity: 0.4;     
+    border: 1px solid #fff
 }
+
 
 .footer {
-    
     margin-top: 112px;
-    border: 3px solid rgb(243, 4, 4);
     background: #316099;
-    } /*Используется в Index.html и contacts.html*/
+    } 
 
+.footer_content_top{
+    position: relative;
+}
+
+.footer_botton {
+    text-decoration: none;
+    top: 68px;
+    right: 114px;
+    position: absolute;
+    background: #5A98D0;
+    padding:15px 80px ;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; 
+     
+}
 
 .footer_content {
-     
-        width: 495px;
-        margin-top: 61px;
+    width: 495px;
+    margin-top: 61px;
+    margin-bottom: 96px;
 }
        
-
-
 .footer_heading_h3 {
     font-style: normal;
     font-weight: normal;
@@ -270,10 +450,9 @@ body {
 .footer_paragraf {
     font-size: 16px;
     line-height: 26px;
-    color:#1F3F68;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    margin-bottom: 96px;
+    letter-spacing: 0.05em;   
+    color: #FFFFFF;
+    opacity: 0.6;;
 }
 
 
@@ -285,17 +464,9 @@ body {
     display: flex;
     justify-content: space-between;
     color:#fff;
-    border: 1px solid red;
     
 }
 
-.footer_name {
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    
-}
 
 .footer_links { 
     font-size: 16px;
@@ -308,64 +479,6 @@ body {
 
 .footer_copyright { 
    padding-top: 64px;
-} /*Используется в Index.html и contacts.html*/
+   margin-bottom: 64px;
+} 
 
-
-
-/*Div для Contacts.html*/
-
-.image {
-    border: 3px solid rgb(66, 180, 214);
-    
-}
-
-.contacts {
-    border: 3px solid rgb(241, 16, 27);
-}
-
-.address {    
-   /* border: 3px solid rgb(248, 9, 21);*/
-}
-
-.phone { 
-     
-    /*border: 3px solid rgb(248, 244, 9);*/
-}
-
-.phone_number {
-    /*border: 3px solid rgb(232, 167, 70);*/
-}
-
-.phone_number_ul {
-    list-style-type: none;
-}
-
-.service {    
-    /*border: 3px solid rgb(9, 248, 61);*/
-}
-
-.service_link {
-    /*border: 3px solid rgb(47, 133, 212);*/
-    
-}
-
-.service_link_ul {
-    list-style-type: none;
-
-}
-
-.message{
-    border: 3px solid rgb(241, 16, 27);
-}
-
-
-.map {
-    /*border: 3px solid rgb(224, 248, 9);*/
-    display: flex;
-    justify-content: center;
-}
-
-hr {
-    opacity: 0.4;     
-    border: 1px solid #fff
-}
