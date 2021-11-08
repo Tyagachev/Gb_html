@@ -9,12 +9,16 @@ body {
    }
 
 .header {
+    max-width: 1140px;
+    margin: 0 auto;
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     padding: 42px 0 0 0;
 }
 
 .header_contacts {
+    max-width: 1140px;
+    margin: 0 auto;
     height: 471px;
     z-index: 0;
     padding: 42px 0 0 0;
@@ -353,7 +357,6 @@ body {
     padding: 0 0 16px 19px;
 
 }
-
 
 .service_link_img {
     text-decoration: none; 
