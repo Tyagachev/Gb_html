@@ -49,7 +49,7 @@ body {
 
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     border: 1px solid rgb(96, 253, 5);
     }
@@ -408,7 +408,9 @@ hr {
 
 .footer {
     margin-top: 112px;
-    background: #316099;
+    background-image: url(../Gb_html/img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
     } 
 
 .footer_content_top{
