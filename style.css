@@ -665,6 +665,13 @@ hr {
         line-height: 37px;
         margin-bottom: 12px;
     }
+
+    .heading_h4_message {
+        margin: 36px 0 0 0;
+        font-size: 16px;
+        padding: 0 0 31px 35px;
+
+    }
     .paragraf_h1 { 
         width: 100%;
     }
@@ -725,8 +732,37 @@ hr {
     margin-right: 0;
     margin-bottom: 16px;
     }
-    .project_item {
     
+    .message {
+        max-width: 342px;
+        max-height: 514px;
+    }
+
+    .message_block {
+        padding: 0 35px 0 35px;
+    }
+
+    .data{  
+        max-width: 271px;
+        height: 46px;
+        
+        
+    }
+.message_name{
+    padding: 4px 0 5px 0;
+
+}
+
+    .data_message {
+        max-width: 271px;
+        height: 92px;
+    }
+    .send {
+        width: 271px;
+        height: 46px;
+        margin: 46px 0 0 0;
+        
+        
     }
     .footer {
     margin-top: 0;
