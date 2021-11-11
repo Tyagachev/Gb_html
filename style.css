@@ -21,14 +21,14 @@ body {
     margin: 0 auto;
     height: 471px;
     z-index: 0;
-    padding: 42px 0 0 0;
+    padding: 44px 0 0 0;
 }
 
 
 .header_contacts_inner {
     background-image:url(../Gb_html/img/contact_back.png);
     background-repeat: no-repeat;
-    padding-top: 40px;
+    margin: 42px 0 0 0;
 }
 
 .header_contact_us {
@@ -42,6 +42,7 @@ body {
 .header_nav { 
     display: flex;
     justify-content: space-between;
+    
     
 
 } 
@@ -113,6 +114,7 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    padding: 51px 0 16px 0;
     
 }
 
@@ -124,8 +126,8 @@ body {
     text-align: center;
     letter-spacing:0.04em;
     color: rgba(255, 255, 255, 0.6);
-    margin: 32px auto 64px;
-    padding-bottom: 40px;
+    margin: 0px auto;
+    padding-bottom: 49px;
 }
 
 
@@ -302,6 +304,7 @@ body {
     opacity: 0.4;
     width: 428px;
     height: 72px;
+    padding: 0 0 0 36px;
 }
 
 .data_message {
@@ -311,6 +314,8 @@ body {
     border: 1px solid #356EAD;
     box-sizing: border-box;
     border-radius: 10px;
+    padding: 21px 0 0 36px;
+    
     
 }
 
@@ -401,9 +406,8 @@ body {
 }
 
 .map {
-    
-    display: flex;
-    justify-content: center;
+
+
 }
 
 hr {
@@ -412,16 +416,25 @@ hr {
 }
 
 .footer {
-    margin-top: 112px;
+    margin-top: 109px;
     background-image: url(../Gb_html/img/Rectangle.png);
     background-repeat: no-repeat;
     background-position: center;
-    } 
+    }
 
-.footer_content_top{
+.footer_block {
+        margin-top: 109px;
+        background-image: url(../Gb_html/img/Rectangle.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+
+    
+
+.footer_content_top {
     display: flex;
     justify-content: space-between;
-     align-items: center;
+    align-items: center;
 }
 
 .footer_content_text {
@@ -513,7 +526,8 @@ hr {
 
     }
     .header_content {
-        background-position: right 168px;
+        z-index: 2;
+        background-position: right 280px;
     }
     .index_box {
         flex-direction: column;
@@ -539,20 +553,84 @@ hr {
 
     .footer_links_ol {
         flex-direction: column;
-        padding: 0 0 0 92px ;
+        padding: 0 64px 0 92px ;
     }
     .footer_links {
         padding: 25px 0 0 0;
     }
     li {
         
-            margin-bottom: 25px; /* Расстояние снизу */
+        margin-bottom: 25px; 
            }
     
     .footer_copyright {
         padding: 0 0 64px 95px;
     }
+
+    .header_contacts {
+        height: 400px;
+        padding: 15px 0 0 0;
+    }
+    .header_contacts_inner {
+        margin: 46px 0 0 0;
+        
+    }
+    .index_service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 64px 0;
+
+    }
+    .contacts {
+        margin: 0;
+    }
+
+    .image {
+        margin-bottom: 64px;
+    }
+
+    .heading_h4_contacts {
+        padding: 0;
+        margin: 32px 0 0 0;
+    }
+
+    .heading_h2 {
+        padding: 50px 0 16px 0;
+    }
+    
+    .heading_h4_message {
+        padding-left: 54px;
+
+    }
+
+    .message_block {
+        padding-left: 54px;
+        padding-bottom: 31px;
+    }
+    .data {
+        padding: 0 0 0 34px;
+    }
+
+    .data_message {
+        padding: 20px 0 0 34px;
+    }
+
+    .send {
+        margin-top: 70px;
+    }
+
+    .footer_block {
+        margin-top: 64px;
+    }
+    .footer_paragraf {
+        padding: 0 0 64px 0;
+    }
+    
+ 
+    
 }
+
 
 /*Media Mobile M (667px)*/
 
@@ -577,6 +655,9 @@ hr {
         text-align: center;
         background-image: none;
     }
+
+    
+    
 
     .heading_h1 {  
         width: 100%;    
