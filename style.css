@@ -129,7 +129,7 @@ body {
     letter-spacing:0.04em;
     color: rgba(255, 255, 255, 0.6);
     margin: 0px auto;
-    padding-bottom: 49px;
+    padding: 0 0 49px 0;
 }
 
 
@@ -150,7 +150,7 @@ body {
     letter-spacing: 0.04em;
     color: #1F3F68;
     text-transform: uppercase;
-    padding-left: 56px;
+    padding: 0 0 0 56px;
 }
 
 .heading_h4_contacts {
@@ -176,11 +176,11 @@ body {
 }
 
 .what-we-do {
-    padding-top: 64px;
+    padding: 64px 0 0 0;
 }
 
 .index_box {
-    padding-top: 64px;
+    padding: 64px 0 0 0;
     display: flex;
     justify-content: space-between;
   
@@ -394,8 +394,8 @@ body {
 
 .message_block {
    
-    padding-left: 56px;
-    padding-bottom: 32px;
+    padding:0 0 32px 56px;
+   
 }
 
 .message_name {
@@ -404,7 +404,7 @@ body {
     letter-spacing: 0.04em;
     color: #1F3F68;
     opacity: 0.8;
-    padding-bottom: 8px;
+    padding:0 0 8px 0;
 }
 
 .map {
@@ -493,7 +493,7 @@ hr {
 }
 
 .footer_contacts {
-  padding-top: 64px;
+  padding: 64px 0 0 0;
 } 
 
 .footer_links_ol {
@@ -533,12 +533,12 @@ hr {
 
 /*Media Tablet (1024px)*/
 
-@media (max-width:1024px){
+@media (max-width:1024px) and (min-width: 668px){
 
  
 .container {
-        padding-left: 32px;
-        padding-right: 32px;   
+        padding: 0 32px 0 32px;
+         
 
     }
 .header_content {
@@ -624,13 +624,13 @@ li {
     padding-bottom: 0;
     }
 .heading_h4_message {
-        padding-left: 54px;
+        padding: 0 0 0 54px;
 
     }
 
 .message_block {
-        padding-left: 54px;
-        padding-bottom: 31px;
+        padding: 0 0 34px 54px;
+        
     }
 .data {
         padding: 0 0 0 34px;
@@ -655,12 +655,15 @@ li {
      display: flex;
      align-items: center;
  }
+
 .selector1::marker {
      content:"A.";
  }
+
 .selector2::marker {
     content: "T.";
 }
+
 .selector3::marker {
     content: "E.";
 }
@@ -674,33 +677,33 @@ li {
 @media (max-width:667px) {
 
 .container {
-        padding-left: 16px;
-        padding-right: 16px;   
+    padding:0 16px 0 16px;
+      
 
     }
 
 .header {
-        min-height: 376px;
-        padding: 21px 0 21px 0;
+    min-height: 376px;
+    padding: 21px 0 21px 0;
         
     }
 .header_content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 36px 0 0 0;
-        text-align: center;
-        background-image: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0 0 0;
+    text-align: center;
+    background-image: none;
     }
 
     
     
 
 .heading_h1 {  
-        width: 100%;    
-        font-size: 32px;
-        line-height: 37px;
-        margin-bottom: 12px;
+    width: 100%;    
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
     }
 
 .heading_h2 {
@@ -712,16 +715,17 @@ li {
     }
 
 .heading_paragraf_h2 {
-        font-size: 16px;
-        line-height: 30px;
-        margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 61px 0;
         
     }
 
 .heading_h4_message {
-        margin: 36px 0 0 0;
-        font-size: 16px;
-        padding: 0 0 31px 35px;
+     margin: 36px 0 0 0;
+    font-size: 16px;
+    padding: 0 0 31px 35px;
 
     }
 .paragraf_h1 { 
@@ -739,16 +743,25 @@ li {
     line-height: 46px;
 
     }
+
+.index_service {
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
 .index_content {
     width: 100%;
     margin: 0 0 32px 0;
     }
 
 .what-we-do {
-    padding-top: 48px;
+    padding: 48px 0 0 0;
     }
 .index_box {
-    padding-top: 32px;
+    padding: 32px 0 0 0;
     }
 
 .paragraf_project {
@@ -812,16 +825,27 @@ li {
     margin: 46px 0 0 0;    
         
     }
+
+
+.mapper {
+        margin: 0 0 32px 0;
+    }
+
+.map {
+        display: flex;
+        align-items: center;
+    }
+
 .footer {
     margin-top: 0;
 
     }
 
-.footer_heading_h3 {
-    font-size: 24px;
-    line-height: 28px;
-    text-align: center;
-    }
+.footer_block {
+    margin: 0;
+}
+
+
 
 .footer_content_text {
     padding:0;
@@ -834,7 +858,7 @@ li {
     line-height: 28px;
     text-align: center;
     margin: 0;
-    padding: 18px 0 32 px 0;
+    padding: 18px 0 0 0;
     }
 
 .footer_paragraf {
@@ -857,7 +881,7 @@ li {
     }
 
 .footer_contacts {
-    padding-top: 32px;
+    padding: 32px 0 0 0;
     }
 
 .footer_links_ol {
@@ -891,19 +915,16 @@ li {
     margin-bottom: 17px; 
    }
 
-   .map {
-    display: flex;
-    align-items: center;
-}
+
 
 .selector1::marker {
     content:"1";
 }
 .selector2::marker {
-   content: "2";
+    content: "2";
 }
 .selector3::marker {
-   content: "3";
+    content: "3";
 }
 
 }
