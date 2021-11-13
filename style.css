@@ -28,7 +28,7 @@ body {
      
 }
 .header_contacts_inner {
-    background-image:url(../Gb_html/img/contact_back.png);
+    background-image:url(img/contact_back.png);
     background-repeat: no-repeat;
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@ body {
 .header_content {
     padding: 115px 0 0 0;
     flex-grow: 1;
-    background-image: url(../Gb_html/img/illustration.png);
+    background-image: url(img/illustration.png);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 44%;
@@ -420,14 +420,14 @@ hr {
 
 .footer {
     margin-top: 109px;
-    background-image: url(../Gb_html/img/Rectangle.png);
+    background-image: url(img/Rectangle.png);
     background-repeat: no-repeat;
     background-position: center;
     }
 
 .footer_block {
     margin-top: 109px;
-    background-image: url(../Gb_html/img/Rectangle.png);
+    background-image: url(img/Rectangle.png);
     background-repeat: no-repeat;
     background-position: center;
 }
