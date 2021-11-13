@@ -761,6 +761,7 @@ li {
     padding: 48px 0 0 0;
     }
 .index_box {
+    flex-direction: column;
     padding: 32px 0 0 0;
     }
 
@@ -910,8 +911,7 @@ li {
     text-align: center;
 }
 
-li {
-        
+li {    
     margin-bottom: 17px; 
    }
 
